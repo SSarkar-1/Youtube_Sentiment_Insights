@@ -1,0 +1,9 @@
+Metadata-Version: 2.4
+Name: youtube
+Version: 0.0.0
+Author: Shubham
+Author-email: shubhamsarkarthe1@gmail.com
+License-File: LICENSE
+Dynamic: author
+Dynamic: author-email
+Dynamic: license-file
