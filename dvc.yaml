@@ -8,14 +8,14 @@ stages:
     outs:
     - data/raw
 
-  # data_preprocessing:
-  #   cmd: python src/data/data_preprocessing.py
-  #   deps:
-  #   - data/raw/train.csv
-  #   - data/raw/test.csv
-  #   - src/data/data_preprocessing.py
-  #   outs:
-  #   - data/interim
+  data_preprocessing:
+    cmd: python src/data/data_preprocessing.py
+    deps:
+    - data/raw/train.csv
+    - data/raw/test.csv
+    - src/data/data_preprocessing.py
+    outs:
+    - data/interim
 
   # model_building:
   #   cmd: python src/model/model_building.py
