@@ -76,12 +76,6 @@ The project follows MLOps best practices:
 4. Explore visualizations and trends
 5. Export analytics data as needed
 
-## 📈 Model Performance
-
-- Accuracy: [Add your model's accuracy]
-- F1 Score: [Add your model's F1 score]
-- Precision: [Add your model's precision]
-- Recall: [Add your model's recall]
 
 ## 🤝 Contributing
 
